@@ -7,7 +7,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 15px;
-  background-color: white;
+  background-image: url("modern-abstract-white-minimal-background_84443-8340.avif");
   padding: 40px 20px;
 }
 
@@ -51,6 +51,11 @@ input::placeholder {
   color: #aaa;
 }
 
+input:hover {
+  border-color: #555;
+  background-color: #fafafa;
+  transition: all 0.2s;
+}
 #output {
   margin-top: 20px;
   padding: 10px 20px;

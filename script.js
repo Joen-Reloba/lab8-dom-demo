@@ -41,6 +41,6 @@ button.addEventListener("click", function () {
       age +
       " years old.</p>";
   } else {
-    output.innerHTML += "<p style='color:black'>Hello! Fuck you Stranger</p>";
+    output.innerHTML += "<p style='color:black'>Hello! Stranger Danger</p>";
   }
 });
