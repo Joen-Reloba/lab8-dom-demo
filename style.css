@@ -6,9 +6,26 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 15px;
   background-image: url("modern-abstract-white-minimal-background_84443-8340.avif");
+  background-size: cover;
+  background-image: no-repeat;
   padding: 40px 20px;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
 }
 
 h1,
